@@ -1,12 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "问渠学堂课件导出助手",
-  "version": "1.0",
-  "description": "缓存视频课程幻灯片并导出为无边距 PDF",
+  "name": "cdut-wqhelper",
+  "version": "2.0",
+  "description": "成都理工大学问渠学堂助手 — 课件PPT导出/课堂笔记提取/课程列表",
   "author": "chenzy0355@gmail.com",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "*://classroom.wqxt.cdut.edu.cn/*",
+    "*://video.wqxt.cdut.edu.cn/*",
+    "*://yjapi.wqxt.cdut.edu.cn/*",
+    "*://education.wqxt.cdut.edu.cn/*",
+    "*://wqxt.cdut.edu.cn/*"
   ],
   "action": {
     "default_title": "提取课件"
